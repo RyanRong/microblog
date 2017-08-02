@@ -1,9 +1,21 @@
+ "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+
 Node.js开发指南 microblog 基于express4.15.2
 -----
 ###创建项目
 `express --ejs microblog`
+
 ###配置项目
 `cd microblog && npm install`
+
 ###安装supervisor
 >参考supervisor安装方法
 >####启动supervisor
