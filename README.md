@@ -1,12 +1,16 @@
- "dependencies": {
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "ejs": "~2.5.6",
-    "express": "~4.15.2",
-    "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
-  }
+ 		"dependencies": {
+   		"body-parser": "~1.17.1",
+    	"cookie-parser": "~1.4.3",
+   		"debug": "~2.6.3",
+    	"ejs": "~2.5.6",
+   		"express": "~4.15.2",
+    	"morgan": "~1.8.1",
+    	"serve-favicon": "~2.4.2"
+  		}
+
+如果出现Error: Cannot find module 'xxx-xxx'
+直接npm install xxx-xxx;
+项目就可以正常运行了。
 
 Node.js开发指南 microblog 基于express4.15.2
 -----
