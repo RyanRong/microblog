@@ -9,7 +9,9 @@
   		}
 
 如果出现Error: Cannot find module 'xxx-xxx'
+
 直接npm install xxx-xxx;
+
 项目就可以正常运行了。
 
 Node.js开发指南 microblog 基于express4.15.2
